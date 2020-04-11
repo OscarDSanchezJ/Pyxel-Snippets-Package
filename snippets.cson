@@ -1,0 +1,169 @@
+'.source.python':
+
+  #Entry command of pyxel
+
+  'pyxel.btn(key)':
+    'prefix': 'btn'
+    'body': 'pyxel.btn()'
+
+  'pyxel.btnp(key,[hold],[period])':
+      'prefix': 'btnp'
+      'body': 'pyxel.btnp()'
+
+  'pyxel.btnr(key)':
+      'prefix': 'btnr'
+      'body': 'pyxel.btnr()'
+
+  'pyxel.mouse(visible)':
+      'prefix': 'mse'
+      'body': 'pyxel.mouse()'
+
+#Graphics
+
+  'pyxel.image(img, [])':
+      'prefix': 'img'
+      'body': 'pyxel.image()'
+
+  'pyxel.tilemap(tm)':
+      'prefix': 'tlm'
+      'body': 'pyxel.tilemap(tm)'
+
+  'pyxel.clip(x, y ,w ,h)':
+      'prefix': 'clp'
+      'body': 'pyxel.clip(x, y ,w ,h)'
+
+  'pyxel.pal(col1, col2)':
+      'prefix': 'pal'
+      'body': 'pyxel.pal(col1, col2)'
+
+  'pyxel.cls(col)':
+      'prefix': 'cls'
+      'body': 'pyxel.cls(col)'
+
+  'pyxel.pget(x, y)':
+      'prefix': 'pgt'
+      'body': 'pyxel.pget(x, y)'
+
+    'pyxel.pset(x, y, col)':
+        'prefix': 'pst'
+        'body': 'pyxel.pset(x, y, col)'
+
+  'pyxel.line(x1, y1, x2, y2, col)':
+      'prefix': 'lne'
+      'body': 'pyxel.line(x1, y1, x2, y2, col)'
+
+  'pyxel.rect(x, y, w, h, col)':
+      'prefix': 'rct'
+      'body': 'pyxel.rect(x, y, w, h, col)'
+
+  'pyxel.rectb(x, y, w, h, col)':
+      'prefix': 'rctb'
+      'body': 'pyxel.rectb(x, y, w, h, col)'
+
+  'pyxel.circ(x, y, r, col)':
+      'prefix': 'crc'
+      'body': 'pyxel.circ(x, y, r, col)'
+
+  'pyxel.circb(x, y, r, col)':
+      'prefix': 'crcb'
+      'body': 'pyxel.circb(x, y, r, col)'
+
+  'pyxel.tri(x1, y1, x2, y2, x3, y3, col)':
+      'prefix': 'tri'
+      'body': 'pyxel.tri(x1, y1, x2, y2, x3, y3, col)'
+
+  'pyxel.trib(x1, y1, x2, y2, x3, y3, col)':
+      'prefix': 'trib'
+      'body': 'pyxel.trib(x1, y1, x2, y2, x3, y3, col)'
+
+  'pyxel.blt(x, y, img, u, v, w, h, [colkey])':
+      'prefix': 'blt'
+      'body': 'pyxel.blt(x, y, img, u, v, w, h, [colkey])'
+
+  'pyxel.bltm(x, y, img, u, v, w, h, [colkey])':
+      'prefix': 'bltm'
+      'body': 'pyxel.bltm(x, y, img, u, v, w, h, [colkey])'
+
+#Audio
+
+  'pyxel.sound(snd, [system])':
+      'prefix': 'snd'
+      'body': 'pyxel.sound(snd, [system])'
+
+  'pyxel.music(msc)':
+      'prefix': 'msc'
+      'body': 'pyxel.music(msc)'
+
+  'pyxel.play_pos(ch)':
+      'prefix': 'ppos'
+      'body': 'pyxel.play_pos(ch)'
+
+  'pyxel.play(ch, snd, loop=False)':
+      'prefix': 'ply'
+      'body': 'pyxel.play(ch, snd, loop=False)'
+
+  'pyxel.playm(msc, loop=False)':
+      'prefix': 'plym'
+      'body': 'pyxel.playm(msc, loop=False)'
+
+  'pyxel.stop([ch])':
+      'prefix': 'stp'
+      'body': 'pyxel.stop([ch])'
+
+  #Class Image
+
+  'pyxel.width':
+      'prefix': 'pwdth'
+      'body': 'pyxel.width'
+
+  'pyxel.height':
+      'prefix': 'phght'
+      'body': 'pyxel.height'
+
+  'pyxel.data':
+      'prefix': 'data'
+      'body': 'pyxel.data'
+
+  'pyxel.get(x, y)':
+      'prefix': 'get'
+      'body': 'pyxel.get(x, y)'
+
+  'pyxel.set(x, y, data)':
+      'prefix': 'set'
+      'body': 'pyxel.set(x, y, data)'
+
+  'pyxel.load(x, y, filename)':
+      'prefix': 'load'
+      'body': 'pyxel.load(x, y, filename)'
+
+  'pyxel.copy(x, y, img, u, v, w, h)':
+      'prefix': 'cpy'
+      'body': 'pyxel.copy(x, y, img, u, v, w, h)'
+
+      #Class Tilemap
+
+  'pyxel.refimg':
+      'prefix': 'cpy'
+      'body': 'pyxel.refimg'
+
+  'pyxel.copy(x, y, tm, u, v, w, h)':
+      'prefix': 'cpytm'
+      'body': 'pyxel.copy(x, y, tm, u, v, w, h)'
+
+      #Class sound
+
+  'pyxel.set_note(note)':
+      'prefix': 'snote'
+      'body': 'pyxel.set_note(note)'
+
+  'pyxel.set_tone(tone)':
+      'prefix': 'stone'
+      'body': 'pyxel.set_tone("tone")'
+
+  'pyxel.set_volume(volume)':
+      'prefix': 'svlme'
+      'body': 'pyxel.set_volume("volume")'
+
+  'pyxel.set_effect(effect)':
+      'prefix': 'svlme'
+      'body': 'pyxel.set_effect("effect")'
