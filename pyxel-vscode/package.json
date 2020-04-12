@@ -1,0 +1,21 @@
+{
+	"name": "snippet-pyxel",
+	"displayName": "Snippets for Pyxel",
+	"description": "Snippets for Pyxel,  a retro game engine for Python ",
+	"version": "1.0.0",
+	"publisher": "OscarDSanchezJ",
+	"engines": {
+		"vscode": "^1.28.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "python",
+				"path": "./snippets.json"
+			}
+		]
+	}
+}
