@@ -190,7 +190,7 @@
     "description": "pyxel.set_volume(volume)"
   },
   "pyxel.set_effect(effect)": {
-    "prefix": "svlme",
+    "prefix": "sefct",
     "body": "pyxel.set_effect(\"effect\")",
     "description": "pyxel.set_effect(effect)"
   }
